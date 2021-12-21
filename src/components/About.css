@@ -1,0 +1,31 @@
+.about{
+    /* border: 1px solid black; */
+    max-width: 250px;
+    margin:20px 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.icons{
+    /* border: 1px solid black; */
+    max-width:60px;
+    height:40px ;
+}
+
+.about>h3{
+    font-size:17px ;
+    font-family: sans-serif;
+    margin: 10px 0px;
+}
+.about>p{
+    font-family:sans-serif;
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}

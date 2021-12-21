@@ -1,0 +1,422 @@
+:root{
+    --primary:hsla(323, 97%, 63%, 0.65);
+    --secondary:#d4385dc0;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+}
+.home-banner{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    background:linear-gradient(134deg, var(--primary), var(--secondary)), url("./Assert/hero-banner.jpg") no-repeat center center / cover;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.newProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.newProduct>p{
+    margin: 0;
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+}
+.newProduct>h2{  
+    padding: 0px 10px;
+    margin:10px 0 15px 0;
+    color: #d4385dc0;
+    background-color: white;
+    font-family: sans-serif;
+}
+.apple-brand{
+    width: fit-content;
+    display: flex;
+}
+.apple-brand>p{
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.sliderimg{
+    max-width: 700px;
+
+}
+.img{
+    width: 100%;
+}
+
+/* ---------------------------------//----------------------------- */
+
+.home-about{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-about-container{
+    display: flex;
+}
+
+/* -----------------------------------//------------------------------- */
+
+.mobile-feature{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(134deg, var(--primary), var(--secondary)), url("./Assert/bg-feature-section.jpg") no-repeat center center / cover;
+}
+
+.mobile-feature-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mobile-feature-title{
+    width: fit-content;
+    font-size: 23px;
+    font-family:sans-serif;
+    color: white;
+}
+
+.mobile-feature-title>span{
+    font-weight: 600;
+}
+
+.phoneImg{
+    max-width: 230px;
+    margin: 0 20px;
+}
+
+.mobile-feature-container{
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-feature-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------------------------//---------------------------------- */
+
+.somefacts{
+    border-bottom: 1px solid rgb(219, 219, 219);
+    display: flex;
+    max-height: fit-content;
+    padding-top: 20px;
+}
+.somefacts-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.somefacts-wrap>p{
+    margin: 0;
+    width: fit-content;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.somefacts-wrap>p>span{
+    font-weight: 600;
+}
+.somefacts-wrap>div{
+    width: 100%;
+    margin: 40px 0;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.avante-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.avante-wrap-img{
+    max-width: 650px;
+    height: auto;
+    padding: 20px;
+}
+
+.avante-wrap>div{
+    max-width: 400px;
+    text-align: left;
+    padding: 10px;
+}
+.avante-wrap>div>span{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.avante-wrap>div>span>span{
+    font-weight: 600;
+}
+
+.avante-wrap>div>p{
+    padding: 10px 15px;
+    font-family: sans-serif;
+    font-size: 13px;
+    background:linear-gradient(134deg,  #700877,  #ff2759) ;
+    color: white;
+}
+
+.avante-wrap>div>div{
+    border-top: 2px solid black;
+    border-image:-webkit-linear-gradient(134deg,#700877, #ff2759 );
+    border-image:linear-gradient(134deg,  #700877, #ff2759);
+    border-image-slice: 1;
+    padding:10px;
+}
+
+.avante-wrap>div>div>p{
+    font-size: 13px;
+    font-family: sans-serif;
+    color:rgb(255, 0, 85);
+    font-weight: 600;
+}
+
+.avante-wrap>div>div>span{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: gray;
+}
+
+/* ---------------------------------------------------//--------------------------- */
+
+.news-section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-section-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.news-section-wrap>p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: gray;
+
+}
+.news-title{
+    width: fit-content;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.news-title>span{
+    font-weight: 600;
+}
+
+.post-section1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-end;
+    max-width: 550px;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.1) 70% , var(--primary) 30%),url("./Assert/img-post-one.jpg") ;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.post{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.main-post{
+    padding: 10px 20px;
+    text-align:left;
+}
+
+.main-post>span{
+   font-size: 15px;
+   font-family: sans-serif;
+}
+.main-post>h3{
+    margin: 2px 0;
+    font-family: sans-serif;
+}
+
+.main-post>p{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+
+@media(max-width:1030px){
+  
+    .avante-wrap{
+        padding: 0;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .news-section{
+        height: fit-content;
+    }
+    .post{
+        flex-direction: column;
+    }
+    .post-section1{
+        height: 70vh ;
+    }
+
+}
+
+@media(max-width:730px){
+    .home-banner{
+        height: auto;
+    }
+    .newProduct{
+        margin-top: 40px;
+        justify-content: flex-end;
+    }
+    .newProduct>p{
+        font-size: 15px;
+    }
+    .newProduct>h2{  
+        font-size: 18px;
+    }
+    .apple-brand>p{
+        font-size: 13px;
+    }
+    .home-about-container{
+        flex-direction: column;
+    }
+    .mobile-feature{
+        height: fit-content;
+    }
+    
+    .mobile-feature-container{
+        max-width: fit-content;
+        flex-direction: column;
+    }
+    .somefacts-wrap{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .somefacts-wrap>p{
+        margin-top: 20px;
+    }
+    .somefacts{
+        height: fit-content;
+    }
+    .avante-wrap{
+        padding: 0;
+        flex-direction: column;
+    }
+    .avante-wrap-img{
+        max-width:500px;
+    }
+    .avante-wrap>div{
+       text-align: center;
+    }
+    .avante-wrap>div>span{
+       font-size: 20px;
+    }
+    .avante-wrap>div>p{
+        font-size: 11px;
+        padding: 7px 7px;
+    }
+    .avante-wrap>div>div>p{
+        font-size: 11px;
+    }
+    .avante-wrap>div>div>span{
+        font-size: 11px;
+    }
+    .news-section{
+        height: fit-content;
+    }
+
+    .post{
+      flex-direction: column;
+    }
+    .news-section-wrap{
+        padding: 20px 10px;
+    }
+    .post-section1{
+        height: 70vh ;
+    }
+}
+
+@media(max-width:600px){
+    .newProduct{
+        height: 55vh;
+    }
+    .newProduct>p{
+        font-size: 14px;
+    }
+    .newProduct>h2{  
+        font-size: 16px;
+    }
+    .apple-brand>p{
+        font-size: 11px;
+    }
+    .avante-wrap-img{
+        max-width:400px;
+    }
+
+    .post-section1{
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0.1) 60% , var(--primary) 40%),url("./Assert/img-post-one.jpg") ;
+    }
+    .post{
+        padding: 0px;
+    }
+    .main-post>span{
+       font-size: 13px;
+    }
+    .post-section1{
+        height: 60vh ;
+    }
+    
+    .main-post>p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:400px){
+    .avante-wrap-img{
+        max-width:250px;
+    }
+    .post-section1{
+        height: 50vh ;
+    }
+    .post-section1{
+        background-image:linear-gradient(to bottom, rgba(0,0,0,0.1) 50% , var(--primary) 50%),url("./Assert/img-post-one.jpg");
+    }
+}
